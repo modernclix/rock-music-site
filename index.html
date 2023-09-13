@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Music Site</title>
+</head>
+<body>
+    <main>
+        <h1>Rock Music Site</h1>
+        <section>
+            <h2>Rock Music Photos</h2>
+            <!-- TODO: Add link to Rock Music photos -->
+            <p>See the best Rock Music photos in our Gallery.</p>
+            <a target="_blank" href="https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg"><img width="320" height="240" src="https://images.pexels.com/photos/811838/pexels-photo-811838.jpeg" alt="A guy playing electric guitar"></a>
+        </section>
+        <section>
+            <h2>Rock Music lists</h2>
+            <h3>Things Rockers love:</h3>
+            <ul>
+                <li>🎸 Electric Guitars</li>
+                <li>🥁 Drums</li>
+                <li>🍻 Beer</li>
+            </ul>
+            <figure>
+                <img width="320" height= "auto" src="https://images.pexels.com/photos/5537954/pexels-photo-5537954.jpeg" alt="A glass of beer">
+                <figcaption>Rockers <em>love</em> beer.</figcaption>  
+            </figure>
+            <h3>Top 3 things Rockers hate:</h3>
+            <ol>
+                <li>🎹 Keyboards</li>
+                <li>💼 Regular Jobs</li>
+                <li>☀ Sunday Mornings</li>
+            </ol>
+            <figure>
+                <img width="320" height= "auto" src="https://images.pexels.com/photos/3771050/pexels-photo-3771050.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="A guy with headache">
+                <figcaption>Rockers <strong>hate</strong> Sunday mornings.</figcaption>  
+            </figure>
+        </section>
+        <section>
+            <h2>Rock Music Form</h2>
+            <form>
+                <fieldset>
+                    <legend>What Rock Subgenre is your band?</legend>
+                    <label><input id="rocknroll" type="radio" name="rock-subgenre" value="rocknroll" checked> Rock'n Roll</label>
+                    <label><input id="heavymetal" type="radio" name="rock-subgenre" value="heavymetal"> Heavy Metal</label>
+                    <label><input id="punkrock" type="radio" name="rock-subgenre" value="punkrock">Punk Rock</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What's your band's personality?</legend>
+                    <input id="aggressive" type="checkbox" name="personality" value="aggressive" checked> <label for="aggressive">Aggressive</label>
+                    <input id="psychedelic" type="checkbox" name="personality" value="psychedelic"> <label for="psychedelic">Psychedelic</label>
+                    <input id="depressive" type="checkbox" name="personality" value="depressive"> <label for="depressive">Depressive</label>
+                </fieldset>
+            <input type="text" name="bandsname" placeholder="Your band's name" required>
+            <button type="submit">Submit</button>
+        </form>
+        </section>
+    </main>
+    <footer>
+        <p>
+        Made by Modern Clix - All rights reserved  - <a href="https://modernclixdev.blogspot.com/">modernclixdev.blogspot.com</a>
+        </p>
+    </footer>    
+</body>
+</html>
